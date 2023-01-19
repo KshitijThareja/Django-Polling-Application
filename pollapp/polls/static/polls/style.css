@@ -1,0 +1,8 @@
+li a {
+    color: green;
+}
+body {
+    background: rgba(255, 255, 255, 0.945) url("images/example.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
