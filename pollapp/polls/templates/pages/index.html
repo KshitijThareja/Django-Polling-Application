@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class ="card text-center main_d">
+	<div class ="card-body">
+		<h1>Welcome To Poll Master</h1>
+		
+<p class="mainp">Answer different polls and make your opinion count</p>
+
+		<a class ="btn btn-dark" href ="{% url 'polls:index' %}">
+			View Available Polls</a>
+	</div>
+</div>
+{% endblock %}
